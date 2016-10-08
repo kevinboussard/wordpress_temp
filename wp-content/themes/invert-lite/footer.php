@@ -9,15 +9,11 @@
 ?>
 </div>
 <!-- #main -->
-	<div id="container">
-		<div class="row-fluid">
-			<div id="contact">
-				<h2>Contact</h2>
-				<?php echo do_shortcode( '[contact-form-7 id="16" title="Contact form 1"]' ); ?>
-				<div class="clear"></div>
-			</div>
-		</div>
-	</div>
+	<!-- CONTACT BOX -->
+	<?php if( get_theme_mod('home_feature_sec', 'on') == 'on' ) { ?>
+		<?php include("includes/contact-box.php"); ?>
+	<?php } ?>
+
 	<!-- #footer -->
 	<div id="footer">
 		<div class="container">
@@ -32,11 +28,17 @@
 		<div class="third_wrapper">
 			<div class="container">
 				<div class="row-fluid">
+					<div class="social">
+						<ul>
+							<li><a href="http://fr.viadeo.com/fr/profile/agathe.huvé"><i class="fa fa-viadeo"></i></a></li>
+							<li><a href="https://fr.linkedin.com/in/agathe-huvé-19875b107"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
 					<div class="clear"></div>
 				</div>
 			</div>
 		</div>
-		<!-- third_wrapper --> 
+		<!-- third_wrapper -->
 		</div>
 	<!-- #footer -->
 

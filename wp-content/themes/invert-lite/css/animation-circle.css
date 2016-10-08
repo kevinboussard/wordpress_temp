@@ -3,13 +3,8 @@
 }
 
 #competence .mid-box h3{
+    font-family: 'Playfair Display', serif;
     line-height: 275px;
-}
-
-#skill-title{
-    text-align: center;
-    font-size: 45px;
-    text-transform: uppercase;
 }
 
 .chart {
@@ -24,7 +19,7 @@
     padding: 50px 25px;
     width: 100px;
     height: 50px;
-    border: 20px solid #f0f0f0;
+    border: 5px solid #f0f0f0;
     border-radius: 100px;
 }
 
@@ -38,8 +33,8 @@
 
 /* Colors for the circles and positions for the graphics */
 .skill {
-    top: 46px;
-    left: 45px;
+    top: 31px;
+    left: 31px;
 }
 
 .chart svg {
@@ -51,7 +46,7 @@
 .outer {
     fill: transparent;
     stroke: #333;
-    stroke-width: 20;
+    stroke-width: 5;
     stroke-dasharray: 534;
     transition: stroke-dashoffset 1s;
     -webkit-animation-play-state: running;
@@ -64,127 +59,127 @@
 
 
 /* Set the initial values for the animation */
-.chart[data-percent='100'] .outer {
-    stroke-dashoffset: 0;
+.chart-animation[data-percent='100'] .outer {
+    stroke-dashoffset: 27;
     -webkit-animation: show100 2s;
     animation: show100 2s;
 }
 
-.chart[data-percent='95'] .outer {
-    stroke-dashoffset: 27;
+.chart-animation[data-percent='95'] .outer {
+    stroke-dashoffset: 54;
     -webkit-animation: show95 2s;
     animation: show95 2s;
 }
 
-.chart[data-percent='90'] .outer {
-    stroke-dashoffset: 54;
+.chart-animation[data-percent='90'] .outer {
+    stroke-dashoffset: 81;
     -webkit-animation: show90 2s;
     animation: show90 2s;
 }
 
-.chart[data-percent='85'] .outer {
-    stroke-dashoffset: 81;
+.chart-animation[data-percent='85'] .outer {
+    stroke-dashoffset: 108;
     -webkit-animation: show85 2s;
     animation: show85 2s;
 }
 
-.chart[data-percent='80'] .outer {
-    stroke-dashoffset: 108;
+.chart-animation[data-percent='80'] .outer {
+    stroke-dashoffset: 135;
     -webkit-animation: show80 2s;
     animation: show80 2s;
 }
 
-.chart[data-percent='75'] .outer {
-    stroke-dashoffset: 135;
+.chart-animation[data-percent='75'] .outer {
+    stroke-dashoffset: 162;
     -webkit-animation: show75 2s;
     animation: show75 2s;
 }
 
-.chart[data-percent='70'] .outer {
-    stroke-dashoffset: 162;
+.chart-animation[data-percent='70'] .outer {
+    stroke-dashoffset: 188;
     -webkit-animation: show70 2s;
     animation: show70 2s;
 }
 
-.chart[data-percent='65'] .outer {
-    stroke-dashoffset: 188;
+.chart-animation[data-percent='65'] .outer {
+    stroke-dashoffset: 215;
     -webkit-animation: show65 2s;
     animation: show65 2s;
 }
 
-.chart[data-percent='60'] .outer {
-    stroke-dashoffset: 215;
+.chart-animation[data-percent='60'] .outer {
+    stroke-dashoffset: 242;
     -webkit-animation: show60 2s;
     animation: show60 2s;
 }
 
-.chart[data-percent='55'] .outer {
-    stroke-dashoffset: 242;
+.chart-animation[data-percent='55'] .outer {
+    stroke-dashoffset: 267;
     -webkit-animation: show55 2s;
     animation: show55 2s;
 }
 
-.chart[data-percent='50'] .outer {
-    stroke-dashoffset: 267;
+.chart-animation[data-percent='50'] .outer {
+    stroke-dashoffset: 296;
     -webkit-animation: show50 2s;
     animation: show50 2s;
 }
 
-.chart[data-percent='45'] .outer {
-    stroke-dashoffset: 296;
+.chart-animation[data-percent='45'] .outer {
+    stroke-dashoffset: 323;
     -webkit-animation: show45 2s;
     animation: show45 2s;
 }
 
-.chart[data-percent='40'] .outer {
-    stroke-dashoffset: 323;
+.chart-animation[data-percent='40'] .outer {
+    stroke-dashoffset: 350;
     -webkit-animation: show40 2s;
     animation: show40 2s;
 }
 
-.chart[data-percent='35'] .outer {
-    stroke-dashoffset: 350;
+.chart-animation[data-percent='35'] .outer {
+    stroke-dashoffset: 376;
     -webkit-animation: show35 2s;
     animation: show35 2s;
 }
 
-.chart[data-percent='30'] .outer {
-    stroke-dashoffset: 376;
+.chart-animation[data-percent='30'] .outer {
+    stroke-dashoffset: 401;
     -webkit-animation: show30 2s;
     animation: show30 2s;
 }
 
-.chart[data-percent='25'] .outer {
-    stroke-dashoffset: 401;
+.chart-animation[data-percent='25'] .outer {
+    stroke-dashoffset: 430;
     -webkit-animation: show25 2s;
     animation: show25 2s;
 }
 
-.chart[data-percent='20'] .outer {
-    stroke-dashoffset: 430;
+.chart-animation[data-percent='20'] .outer {
+    stroke-dashoffset: 457;
     -webkit-animation: show20 2s;
     animation: show20 2s;
 }
 
-.chart[data-percent='15'] .outer {
-    stroke-dashoffset: 457;
+.chart-animation[data-percent='15'] .outer {
+    stroke-dashoffset: 484;
     -webkit-animation: show15 2s;
     animation: show15 2s;
 }
 
-.chart[data-percent='10'] .outer {
-    stroke-dashoffset: 484;
+.chart-animation[data-percent='10'] .outer {
+    stroke-dashoffset: 511;
     -webkit-animation: show10 2s;
     animation: show10 2s;
 }
 
-.chart[data-percent='5'] .outer {
-    stroke-dashoffset: 511;
+.chart-animation[data-percent='5'] .outer {
+    stroke-dashoffset: 537;
     -webkit-animation: show5 2s;
     animation: show5 2s;
 }
 
-.chart[data-percent='0'] .outer {
+.chart-animation[data-percent='0'] .outer {
     stroke-dashoffset: 537;
     -webkit-animation: show0 2s;
     animation: show0 2s;
@@ -218,7 +213,7 @@
     }
 
     to {
-        stroke-dashoffset: 27;
+        stroke-dashoffset: 54;
     }
 }
 
@@ -228,7 +223,7 @@
     }
 
     to {
-        stroke-dashoffset: 27;
+        stroke-dashoffset: 54;
     }
 }
 
@@ -238,7 +233,7 @@
     }
 
     to {
-        stroke-dashoffset: 54;
+        stroke-dashoffset: 81;
     }
 }
 
@@ -248,7 +243,7 @@
     }
 
     to {
-        stroke-dashoffset: 54;
+        stroke-dashoffset: 81;
     }
 }
 
@@ -258,7 +253,7 @@
     }
 
     to {
-        stroke-dashoffset: 81;
+        stroke-dashoffset: 108;
     }
 }
 
@@ -268,7 +263,7 @@
     }
 
     to {
-        stroke-dashoffset: 81;
+        stroke-dashoffset: 108;
     }
 }
 
@@ -278,7 +273,7 @@
     }
 
     to {
-        stroke-dashoffset: 108;
+        stroke-dashoffset: 135;
     }
 }
 
@@ -288,7 +283,7 @@
     }
 
     to {
-        stroke-dashoffset: 108;
+        stroke-dashoffset: 135;
     }
 }
 
@@ -298,7 +293,7 @@
     }
 
     to {
-        stroke-dashoffset: 135;
+        stroke-dashoffset: 162;
     }
 }
 
@@ -308,7 +303,7 @@
     }
 
     to {
-        stroke-dashoffset: 135;
+        stroke-dashoffset: 162;
     }
 }
 
@@ -318,7 +313,7 @@
     }
 
     to {
-        stroke-dashoffset: 162;
+        stroke-dashoffset: 188;
     }
 }
 
@@ -328,7 +323,7 @@
     }
 
     to {
-        stroke-dashoffset: 162;
+        stroke-dashoffset: 188;
     }
 }
 
@@ -338,7 +333,7 @@
     }
 
     to {
-        stroke-dashoffset: 188;
+        stroke-dashoffset: 215;
     }
 }
 
@@ -348,7 +343,7 @@
     }
 
     to {
-        stroke-dashoffset: 188;
+        stroke-dashoffset: 215;
     }
 }
 
@@ -358,7 +353,7 @@
     }
 
     to {
-        stroke-dashoffset: 215;
+        stroke-dashoffset: 242;
     }
 }
 
@@ -368,7 +363,7 @@
     }
 
     to {
-        stroke-dashoffset: 215;
+        stroke-dashoffset: 242;
     }
 }
 
@@ -378,7 +373,7 @@
     }
 
     to {
-        stroke-dashoffset: 242;
+        stroke-dashoffset: 267;
     }
 }
 
@@ -388,7 +383,7 @@
     }
 
     to {
-        stroke-dashoffset: 242;
+        stroke-dashoffset: 267;
     }
 }
 
@@ -398,7 +393,7 @@
     }
 
     to {
-        stroke-dashoffset: 267;
+        stroke-dashoffset: 296;
     }
 }
 
@@ -408,7 +403,7 @@
     }
 
     to {
-        stroke-dashoffset: 267;
+        stroke-dashoffset: 296;
     }
 }
 
@@ -418,7 +413,7 @@
     }
 
     to {
-        stroke-dashoffset: 296;
+        stroke-dashoffset: 323;
     }
 }
 
@@ -428,7 +423,7 @@
     }
 
     to {
-        stroke-dashoffset: 296;
+        stroke-dashoffset: 323;
     }
 }
 
@@ -438,7 +433,7 @@
     }
 
     to {
-        stroke-dashoffset: 323;
+        stroke-dashoffset: 350;
     }
 }
 
@@ -448,7 +443,7 @@
     }
 
     to {
-        stroke-dashoffset: 323;
+        stroke-dashoffset: 350;
     }
 }
 
@@ -458,7 +453,7 @@
     }
 
     to {
-        stroke-dashoffset: 350;
+        stroke-dashoffset: 376;
     }
 }
 
@@ -468,7 +463,7 @@
     }
 
     to {
-        stroke-dashoffset: 350;
+        stroke-dashoffset: 376;
     }
 }
 
@@ -478,7 +473,7 @@
     }
 
     to {
-        stroke-dashoffset: 376;
+        stroke-dashoffset: 401;
     }
 }
 
@@ -488,7 +483,7 @@
     }
 
     to {
-        stroke-dashoffset: 376;
+        stroke-dashoffset: 401;
     }
 }
 
@@ -498,7 +493,7 @@
     }
 
     to {
-        stroke-dashoffset: 401;
+        stroke-dashoffset: 430;
     }
 }
 
@@ -508,7 +503,7 @@
     }
 
     to {
-        stroke-dashoffset: 401;
+        stroke-dashoffset: 430;
     }
 }
 
@@ -518,7 +513,7 @@
     }
 
     to {
-        stroke-dashoffset: 430;
+        stroke-dashoffset: 484;
     }
 }
 
@@ -528,7 +523,7 @@
     }
 
     to {
-        stroke-dashoffset: 430;
+        stroke-dashoffset: 484;
     }
 }
 
@@ -538,7 +533,7 @@
     }
 
     to {
-        stroke-dashoffset: 457;
+        stroke-dashoffset: 511;
     }
 }
 
@@ -548,7 +543,7 @@
     }
 
     to {
-        stroke-dashoffset: 457;
+        stroke-dashoffset: 511;
     }
 }
 
@@ -558,7 +553,7 @@
     }
 
     to {
-        stroke-dashoffset: 484;
+        stroke-dashoffset: 511;
     }
 }
 
@@ -568,7 +563,7 @@
     }
 
     to {
-        stroke-dashoffset: 484;
+        stroke-dashoffset: 511;
     }
 }
 
@@ -578,7 +573,7 @@
     }
 
     to {
-        stroke-dashoffset: 511;
+        stroke-dashoffset: 537; // 537
     }
 }
 
@@ -588,7 +583,7 @@
     }
 
     to {
-        stroke-dashoffset: 511;
+        stroke-dashoffset: 537; //537
     }
 }
 

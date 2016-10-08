@@ -43,7 +43,7 @@
 										<figcaption><?php echo $post->post_title ?></figcaption>
 										<?php if($skill_picture['sizes']['thumbnail'] != null) { ?> <img class="skill" src= "<?php echo $skill_picture['sizes']['thumbnail'];?>"> <?php } ?>
 										<svg width="200" height="200">
-											<circle style="stroke: <?php echo $skill_color ?>" class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
+											<circle style="stroke: <?php echo $skill_color ?>" class="outer" cx="111.5" cy="81.5" r="77.5" transform="rotate(-90, 95, 95)"/>
 										</svg>
 									</figure>
 								</section>

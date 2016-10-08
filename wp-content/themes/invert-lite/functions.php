@@ -120,13 +120,17 @@ add_action( 'after_setup_theme', 'invert_lite_theme_setup' );
  * load css into the website's front-end
  */
 function mytheme_enqueue_style() {
+	// CSS
+	wp_enqueue_style( 'custom', get_template_directory_uri() . '/css/custom.css' );
 	wp_enqueue_style( 'animation-circle', get_template_directory_uri() . '/css/animation-circle.css' );
 	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css' );
 
+	// JAVASCRIPT
 	wp_enqueue_script( 'jquery.1.11.1', get_template_directory_uri() . '/js/portfolio/jquery.1.11.1.js', array ( 'jquery' ), 1.1, true);
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array ( 'jquery' ), 1.1, true);
 	wp_enqueue_script( 'jquery.prettyPhoto', get_template_directory_uri() . '/js/portfolio/jquery.prettyPhoto.js', array ( 'jquery' ), 1.1, true);
 	wp_enqueue_script( 'jquery.isotope', get_template_directory_uri() . '/js/portfolio/jquery.isotope.js', array ( 'jquery' ), 1.1, true);
+	wp_enqueue_script( 'easypiechart', get_template_directory_uri() . '/js/portfolio/easypiechart.js', array ( 'jquery' ), 1.1, true);
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/portfolio/main.js', array ( 'jquery' ), 1.1, true);
 
 }
@@ -218,6 +222,28 @@ add_action('init', 'my_custom_init'); function my_custom_init() {
 				'search_items' => 'Rechercher parmi les diplômes',
 				'not_found' => 'Pas de diplôme trouvé',
 				'not_found_in_trash'=> 'Pas de diplôme dans la corbeille'
+			),
+			'public' => true,
+			'capability_type' => 'post',
+			'supports' => array(
+				'title',
+			),
+			'has_archive' => true   ) );
+
+	register_post_type( 'curriculum_vitae',
+		array(
+			'label' => 'Curriculum Vitae',
+			'labels' => array(
+				'name' => 'CV',
+				'singular_name' => 'CV',
+				'all_items' => 'Touts les CV',
+				'add_new_item' => 'Ajouter un CV',
+				'edit_item' => 'Éditer le CV',
+				'new_item' => 'Nouveau CV',
+				'view_item' => 'Voir le CV',
+				'search_items' => 'Rechercher parmi les CV',
+				'not_found' => 'Pas de CV trouvé',
+				'not_found_in_trash'=> 'Pas de CV dans la corbeille'
 			),
 			'public' => true,
 			'capability_type' => 'post',

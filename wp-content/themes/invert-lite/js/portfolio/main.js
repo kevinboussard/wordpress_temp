@@ -18,6 +18,23 @@ function main() {
       });
 
 
+    // skills chart
+    $(document).ready(function(e) {
+        //var windowBottom = $(window).height();
+        var index=0;
+        $(document).scroll(function(){
+            var top = $('#skills').height()-$(window).scrollTop();
+            if(top < (-1700)){
+                if(index==0){
+
+                    $('.chart').addClass("chart-animation");
+
+                }
+                index++;
+            }
+        });
+    });
+
   	// Portfolio isotope filter
     $(window).load(function() {
         var $container = $('.portfolio-items');

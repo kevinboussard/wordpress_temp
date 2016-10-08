@@ -17,6 +17,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
@@ -58,19 +61,19 @@
 						<div class="top-nav-menu span5">
 							<nav class="navbar navbar-light bg-faded">
 								<ul class="nav navbar-nav">
-									<li class="nav-item nav-item-blue">
+									<li class="nav-item">
 										<a class="nav-link js-scrollTo" href="#competence">Compétences</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link js-scrollTo" href="#portfolio">Portfolio</a>
 									</li>
-									<li class="nav-item nav-item-blue">
+									<li class="nav-item">
 										<a class="nav-link js-scrollTo" href="#experience">Experiences</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link js-scrollTo" href="#education">Diplômes</a>
 									</li>
-									<li class="nav-item nav-item-blue">
+									<li class="nav-item">
 										<a class="nav-link js-scrollTo" href="#contact">Contact</a>
 									</li>
 								</ul>
