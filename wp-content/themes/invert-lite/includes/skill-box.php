@@ -20,7 +20,7 @@
 
 				<?php
 
-				$args = array( 'post_type' => 'competence', 'posts_per_page' => 10 );
+				$args = array( 'post_type' => 'competence', 'posts_per_page' => 25 );
 				$loop = new WP_Query( $args );
 				while ( $loop->have_posts() ) : $loop->the_post();
 
@@ -40,10 +40,14 @@
 							<div class="iconbox-content">
 								<section class="skill-container">
 									<figure class="chart" data-percent="<?php echo $skill_knowledge_percentage ?>">
-										<figcaption><?php echo $post->post_title ?></figcaption>
-										<?php if($skill_picture['sizes']['thumbnail'] != null) { ?> <img class="skill" src= "<?php echo $skill_picture['sizes']['thumbnail'];?>"> <?php } ?>
+										<?php if($skill_picture['sizes']['thumbnail'] != null) { ?> 
+											<img class="skill" src= "<?php echo $skill_picture['sizes']['thumbnail'];?>" width="70px" height="70px">
+											<figcaption></figcaption> 
+										<?php }else{ ?>
+											<figcaption><?php echo $post->post_title ?></figcaption>
+										<?php } ?>
 										<svg width="200" height="200">
-											<circle style="stroke: <?php echo $skill_color ?>" class="outer" cx="111.5" cy="81.5" r="77.5" transform="rotate(-90, 95, 95)"/>
+											<circle style="stroke: <?php echo $skill_color ?>" class="outer" cx="110" cy="80" r="77.5" transform="rotate(-90, 95, 95)"/>
 										</svg>
 									</figure>
 								</section>
