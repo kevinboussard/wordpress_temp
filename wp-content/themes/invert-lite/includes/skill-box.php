@@ -14,9 +14,11 @@
 
 			<div class="mid-box-mid row-fluid">
 
-				<div class="mid-box col-lg-2 col-sm-3 col-xs-12">
+				<div class="mid-box col-lg-2 col-md-2 col-sm-12 col-xs-12">
 					<h3><?php echo $term->name ?></h3>
 				</div>
+
+				<div class="col-lg-9 col-md-9 col-sm-10 col-xs-12">
 
 				<?php
 
@@ -35,7 +37,7 @@
 					?>
 
 
-					<div class="mid-box col-lg-2 .col-md-2 col-sm-2 col-xs-12">
+					<div class="mid-box col-lg-2 col-md-3 col-sm-3 col-xs-12">
 						<div class="skt-iconbox iconbox-top">
 							<div class="iconbox-content">
 								<section class="skill-container">
@@ -57,6 +59,8 @@
 					</div>
 
 				<?php }	endwhile;  ?>
+
+				</div>
 
 				<div class="clear"></div>
 			</div>
