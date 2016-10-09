@@ -115,30 +115,6 @@ jQuery(document).ready(function(){
 })( jQuery );
 
 
-jQuery(document).ready(function ($) {
-
-
-
-	jQuery("a[data-rel^='prettyPhoto']").prettyPhoto({
-
-		animation_speed:'normal',
-
-		theme:'facebook',
-
-		slideshow:3000,
-
-		show_title:false,
-
-		autoplay_slideshow: false	
-
-	});
-
-	
-    
-	document.getElementById('s') && document.getElementById('s').focus();
-});
-
-
 jQuery(document).ready( function() {
 
   //Back to top

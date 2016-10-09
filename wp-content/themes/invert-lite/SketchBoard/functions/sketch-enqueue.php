@@ -9,7 +9,6 @@ function invert_lite_script_enqueqe() {
 	wp_enqueue_script('invert-lite-jquery_easing',get_template_directory_uri().'/js/jquery.easing.1.3.js',array('jquery'), $themevar->Version );
 	wp_enqueue_script('invert-lite-componentssimple_slide', get_template_directory_uri() .'/js/custom.js',array('jquery'), $themevar->Version  );
 	wp_enqueue_script('comment-reply');
-	wp_enqueue_script('invert-lite-colorboxsimple_slide',get_template_directory_uri() .'/js/jquery.prettyPhoto.js',array('jquery'),true, $themevar->Version  );
 	wp_enqueue_script('hoverIntent');
 	wp_enqueue_script('invert-lite-superfish', get_template_directory_uri().'/js/superfish.js',array('jquery'),true, $themevar->Version  );
 	wp_enqueue_script('invert-lite-AnimatedHeader', get_template_directory_uri().'/js/cbpAnimatedHeader.js',array('jquery'),true, $themevar->Version  );

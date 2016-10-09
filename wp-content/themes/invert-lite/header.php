@@ -43,7 +43,7 @@
 				<div class="container">
 					<div class="row-fluid clearfix">
 						<!-- #logo -->
-						<div id="logo" class="span3">
+						<div id="logo" class="col-lg-3 col-sm-3 col-xs-12">
 							<?php if( get_theme_mod('invert_lite_logo_img', '') != '' ){ ?>
 								<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php bloginfo('name'); ?>" ><img class="logo" src="<?php echo esc_url( get_theme_mod('invert_lite_logo_img') ); ?>" alt="<?php bloginfo('name') ?>" /></a>
 							<?php } elseif ( display_header_text() ) { ?>
@@ -58,7 +58,7 @@
 						<!-- #logo -->
 
 						<!-- navigation-->
-						<div class="top-nav-menu span5">
+						<div class="top-nav-menu col-lg-5 col-md-7 col-sm-8 col-xs-12">
 							<nav class="navbar navbar-light bg-faded">
 								<ul class="nav navbar-nav">
 									<li class="nav-item">
@@ -78,6 +78,7 @@
 									</li>
 								</ul>
 							</nav>
+							<div class="clearfix"></div>
 						</div>
 						<!-- #navigation -->
 					</div>

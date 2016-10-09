@@ -306,7 +306,91 @@ ol.type li a:hover {
     margin-bottom: 0;
 }
 
+
+
 /* Media Queries */
+
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+
+    #header{
+        height: 100% !important;
+        position: inherit;
+        text-align: center;
+    }
+
+    #header.skehead-headernav.skehead-headernav-shrink{ position: inherit;}
+
+    #logo{ width: 100% !important; padding: 0; }
+
+    #logo #site-description{ position: inherit;}
+
+    #skehead .navbar{
+        float: inherit;
+        width: 100%;
+    }
+
+    #skehead .top-nav-menu{ float: right; padding-left: 0; padding-right: 0;}
+
+    .navbar-nav > li > a{
+        border: 1px solid;
+        margin-bottom: 2px;
+    }
+
+    .navbar-nav{ margin: 0 !important;}
+
+    .timeline>li .timeline-image{
+        left: -35px;
+        width: 90px;
+        height: 90px;
+    }
+
+    .timeline>li .timeline-panel{
+        width: 67%;
+    }
+    .timeline>li .timeline-panel .row div{
+        padding-right: 0;
+    }
+
+    .timeline>li .timeline-image h4{
+        margin-top: 15px;
+        font-size: 12px;
+    }
+
+    .timeline-company-logo img{
+        width: 90px; height: 90px;
+    }
+
+    #experience .timeline-company-logo{display: none;}
+
+    #competence .mid-box h3{
+        line-height: 0 !important;
+    }
+
+    .categories{
+        padding: 0 !important;
+    }
+
+    .categories ul.cat li{
+        width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0 !important;
+    }
+
+    .hover-bg .hover-text{
+        padding: 0 !important;
+    }
+
+    .portfolio-item{
+        pointer-events: none;
+        cursor: default;
+    }
+
+    .form-control, #searchform #s{
+        padding: 0 !important;
+    }
+}
+
+
 @media(min-width:768px) {
     .intro {
         height: 100%;
@@ -331,9 +415,10 @@ ol.type li a:hover {
         margin-bottom: 40px;
         margin-top: 20px;
     }
+    /*
     section {
         padding: 30px 0;
-    }
+    }*/
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -345,9 +430,10 @@ ol.type li a:hover {
         margin-bottom: 100px;
         min-height: 100px;
     }
+
     .timeline>li .timeline-panel {
         float: left;
-        width: 33%;
+        width: 34%;
         padding: 0 20px 20px 30px;
         text-align: right;
     }
@@ -356,7 +442,7 @@ ol.type li a:hover {
         left: 50%;
         width: 100px;
         height: 100px;
-        margin-left: -50px;
+        margin-left: -66px;
     }
     .timeline>li .timeline-image h4 {
         margin-top: 16px;
@@ -367,7 +453,18 @@ ol.type li a:hover {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
+        width: 38% !important;
     }
+
+    #experience .timeline>li .timeline-panel {
+        width: 31%;
+    }
+
+    #experience .timeline-heading, #experience .timeline-body{
+        margin-left: 20px;
+    }
+
+    .mid-box{margin: 0px 0px 0px 20px !important;}
 }
 
 @media(min-width:992px) {
@@ -383,7 +480,7 @@ ol.type li a:hover {
     .timeline>li .timeline-image {
         width: 150px;
         height: 150px;
-        margin-left: -75px;
+        margin-left: -92px;
     }
     .timeline>li .timeline-image h4 {
         margin-top: 30px;
@@ -393,6 +490,8 @@ ol.type li a:hover {
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 20px 20px;
     }
+
+    .mid-box{margin-left: 0 !important;}
 }
 
 @media(min-width:1200px) {
@@ -419,9 +518,15 @@ ol.type li a:hover {
         font-weight: 400;
     }
 
-    #experience .timeline > li.timeline-inverted > .timeline-panel, .timeline > li.timeline-inverted > .timeline-panel {
+    #experience .timeline > li.timeline-inverted > .timeline-panel {
         padding: 20px 100px 20px 20px;
     }
+
+    .timeline > li.timeline-inverted > .timeline-panel {
+        padding: 20px 75px 20px 20px;
+    }
+
+    .mid-box{margin-left: 0 !important;}
 }
 
 /* CONTACT SECTION */

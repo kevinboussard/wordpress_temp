@@ -14,7 +14,7 @@
 
 			<div class="mid-box-mid row-fluid">
 
-				<div class="mid-box span3">
+				<div class="mid-box col-lg-2 col-sm-3 col-xs-12">
 					<h3><?php echo $term->name ?></h3>
 				</div>
 
@@ -35,7 +35,7 @@
 					?>
 
 
-					<div class="mid-box span2">
+					<div class="mid-box col-lg-2 .col-md-2 col-sm-2 col-xs-12">
 						<div class="skt-iconbox iconbox-top">
 							<div class="iconbox-content">
 								<section class="skill-container">
@@ -46,7 +46,7 @@
 										<?php }else{ ?>
 											<figcaption><?php echo $post->post_title ?></figcaption>
 										<?php } ?>
-										<svg width="200" height="200">
+										<svg width="160" height="160">
 											<circle style="stroke: <?php echo $skill_color ?>" class="outer" cx="110" cy="80" r="77.5" transform="rotate(-90, 95, 95)"/>
 										</svg>
 									</figure>

@@ -130,7 +130,6 @@ function mytheme_enqueue_style() {
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array ( 'jquery' ), 1.1, true);
 	wp_enqueue_script( 'jquery.prettyPhoto', get_template_directory_uri() . '/js/portfolio/jquery.prettyPhoto.js', array ( 'jquery' ), 1.1, true);
 	wp_enqueue_script( 'jquery.isotope', get_template_directory_uri() . '/js/portfolio/jquery.isotope.js', array ( 'jquery' ), 1.1, true);
-	wp_enqueue_script( 'easypiechart', get_template_directory_uri() . '/js/portfolio/easypiechart.js', array ( 'jquery' ), 1.1, true);
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/portfolio/main.js', array ( 'jquery' ), 1.1, true);
 
 }
