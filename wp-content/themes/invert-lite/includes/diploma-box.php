@@ -18,17 +18,14 @@
                         $school_name = get_field("school_name", $post->ID );
                         $diploma_name = get_field("diploma_name", $post->ID );
                         $diploma_description = get_field("diploma_description", $post->ID );
-                        $start_date = get_field("start_date", $post->ID );
-                        $end_date = get_field("end_date", $post->ID );
+                        $obtaining_date = get_field("obtaining_date", $post->ID );
 
                         $class_name = ($index % 2 == 0) ? "" : " class=\"timeline-inverted\"";
                         ?>
 
                         <li <?php echo $class_name ?>>
                             <div class="timeline-image">
-                                <h4><?php echo $start_date ?><br>
-                                    - <br>
-                                    <?php echo $end_date ?> </h4>
+                                <h4><br><?php echo $obtaining_date ?><br>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
