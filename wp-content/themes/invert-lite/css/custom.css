@@ -465,6 +465,7 @@ ol.type li a:hover {
     }
 
     .mid-box{margin: 0px 0px 0px 20px !important;}
+    .mid-box h3{line-height : 0px !important;}
 }
 
 @media(min-width:992px) {
@@ -492,6 +493,7 @@ ol.type li a:hover {
     }
 
     .mid-box{margin-left: 0 !important;}
+    .mid-box h3{line-height : 167px !important;}
 }
 
 @media(min-width:1200px) {
@@ -505,7 +507,7 @@ ol.type li a:hover {
 
     #experience .timeline > li .timeline-panel {
         padding: 20px 20px 20px 180px;
-        width: 41%;
+        width: 35%;
     }
 
     .timeline > li .timeline-image {
@@ -521,7 +523,7 @@ ol.type li a:hover {
 
     #experience .timeline > li.timeline-inverted > .timeline-panel {
         padding: 20px 100px 20px 20px;
-        width: 36% !important;
+        width: 35% !important;
     }
 
     .timeline > li.timeline-inverted > .timeline-panel {
