@@ -539,11 +539,8 @@ ol.type li a:hover {
         font-size: 0.8em;
     }
 
-    .timeline > li.timeline-inverted > .timeline-panel {
-    }
-
-    #experience .timeline-company-logo, #experience .timeline-content{padding-left: 35px;}
-    #education .timeline-inverted .timeline-content{ padding-left: 65px;}
+    #experience .timeline-company-logo, #experience .timeline-content{padding-left: 65px;}
+    #education .timeline-inverted .timeline-content{ padding-left: 90px;}
 
     .mid-box{margin-left: 0 !important;}
 }
