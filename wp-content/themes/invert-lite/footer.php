@@ -26,16 +26,14 @@
 			</div>
 		</div>
 		<div class="third_wrapper">
-			<div class="container">
-				<div class="row-fluid">
-					<div class="social">
-						<ul>
-							<li><a href="http://fr.viadeo.com/fr/profile/agathe.huvé"><i class="fa fa-viadeo"></i></a></li>
-							<li><a href="https://fr.linkedin.com/in/agathe-huvé-19875b107"><i class="fa fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-					<div class="clear"></div>
+			<div class="row-fluid">
+				<div class="social">
+					<ul>
+						<li><a href="http://fr.viadeo.com/fr/profile/agathe.huvé"><i class="fa fa-viadeo"></i></a></li>
+						<li><a href="https://fr.linkedin.com/in/agathe-huvé-19875b107"><i class="fa fa-linkedin"></i></a></li>
+					</ul>
 				</div>
+				<div class="clear"></div>
 			</div>
 		</div>
 		<!-- third_wrapper -->

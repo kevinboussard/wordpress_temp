@@ -213,7 +213,7 @@ ol.type li a:hover {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 40px;
+    left: 625px;
     width: 2px;
     margin-left: -1.5px;
     background-color: #eee;
@@ -234,7 +234,6 @@ ol.type li a:hover {
     float: right;
     position: relative;
     width: 100%;
-    padding: 0 20px 0 100px;
     text-align: left;
 }
 .timeline>li .timeline-panel:before {
@@ -268,7 +267,6 @@ ol.type li a:hover {
 }
 .timeline>li.timeline-inverted>.timeline-panel {
     float: right;
-    padding: 0 20px 0 100px;
     text-align: left;
 }
 .timeline>li.timeline-inverted>.timeline-panel:before {
@@ -293,14 +291,26 @@ ol.type li a:hover {
 .timeline .timeline-heading h2 {
     margin-top: 30px;
 }
+.timeline .timeline-heading h3{
+    margin-bottom: 10px;
+}
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
     color: #312942;
     font-size: 20px;
+    margin-bottom: 5px;
 }
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
     margin-bottom: 0;
 }
+
+#experience .timeline-company-logo, #experience .timeline-content{padding-left: 35px;}
+
+#experience .timeline-company-logo{text-align: left;}
+#experience .timeline-inverted .timeline-company-logo{text-align: right;}
+
+#education .timeline-inverted .timeline-content{ padding-left: 65px;}
+
 .education-ul{
     color: #97A5C1 !important;
     margin-bottom: 0;
@@ -360,7 +370,12 @@ ol.type li a:hover {
         width: 90px; height: 90px;
     }
 
+    .timeline:before {
+        left: 42px;
+    }
+
     #experience .timeline-company-logo{display: none;}
+    #experience .timeline-content, #education .timeline-inverted .timeline-content{ padding-left: 0;}
 
     #competence .mid-box h3{
         line-height: 0 !important;
@@ -387,6 +402,12 @@ ol.type li a:hover {
 
     .form-control, #searchform #s{
         padding: 0 !important;
+    }
+
+    .mid-box{padding: 0 !important;}
+
+    #contact-form {
+        width: 85% !important;
     }
 }
 
@@ -423,6 +444,8 @@ ol.type li a:hover {
         padding-top: 300px;
         padding-bottom: 200px;
     }
+
+
     .timeline:before {
         left: 50%;
     }
@@ -433,8 +456,7 @@ ol.type li a:hover {
 
     .timeline>li .timeline-panel {
         float: left;
-        width: 34%;
-        padding: 0 20px 20px 30px;
+        width: 100%;
         text-align: right;
     }
 
@@ -445,26 +467,22 @@ ol.type li a:hover {
         margin-left: -66px;
     }
     .timeline>li .timeline-image h4 {
-        margin-top: 16px;
-        line-height: 18px;
+        margin-top: 14px;
         font-weight: 400;
+        font-size: 0.8em;
     }
     .timeline>li.timeline-inverted>.timeline-panel {
         float: right;
-        padding: 0 30px 20px 20px;
         text-align: left;
-        width: 38% !important;
     }
 
-    #experience .timeline>li .timeline-panel {
-        width: 31%;
+    .timeline>li.timeline-inverted>.timeline-panel .timeline-company-logo{
+        text-align: right;
     }
 
-    #experience .timeline-heading, #experience .timeline-body{
-        margin-left: 20px;
-    }
+    #experience .timeline-company-logo, #experience .timeline-content{padding-left: 35px;}
+    #education .timeline-inverted .timeline-content{ padding-left: 65px;}
 
-    .mid-box{margin: 0px 0px 0px 20px !important;}
     .mid-box h3{line-height : 0px !important;}
 }
 
@@ -472,63 +490,60 @@ ol.type li a:hover {
     #here-me h1 {
         margin: 10px 0 0px;
     }
+
     .timeline>li {
         min-height: 150px;
     }
     .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
     }
     .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -92px;
+        width: 100px;
+        height: 100px;
+        margin-left: -66px;
     }
     .timeline>li .timeline-image h4 {
-        margin-top: 30px;
-        font-size: 18px;
-        line-height: 26px;
+        margin-top: 14px;
+        font-weight: 400;
+        font-size: 0.8em;
     }
     .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px;
+    }
+
+    #education .timeline-inverted .timeline-content{ padding-left: 95px;}
+    #experience .timeline-company-logo, #experience .timeline-content {
+        padding-left: 65px;
     }
 
     .mid-box{margin-left: 0 !important;}
-    .mid-box h3{line-height : 167px !important;}
+    .mid-box h3{line-height : 167px !important; padding-left: 0!important;}
 }
 
 @media(min-width:1200px) {
+
     .timeline > li {
         min-height: 170px;
     }
 
     .timeline > li .timeline-panel{
-        padding: 20px 20px 20px 100px;
-    }
-
-    #experience .timeline > li .timeline-panel {
-        padding: 20px 20px 20px 180px;
-        width: 35%;
     }
 
     .timeline > li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -91px;
+        width: 100px;
+        height: 100px;
+        margin-left: -66px;
     }
 
     .timeline > li .timeline-image h4 {
-        margin-top: 40px;
+        margin-top: 14px;
         font-weight: 400;
-    }
-
-    #experience .timeline > li.timeline-inverted > .timeline-panel {
-        padding: 20px 100px 20px 20px;
-        width: 35% !important;
+        font-size: 0.8em;
     }
 
     .timeline > li.timeline-inverted > .timeline-panel {
-        padding: 20px 75px 20px 20px;
     }
+
+    #experience .timeline-company-logo, #experience .timeline-content{padding-left: 35px;}
+    #education .timeline-inverted .timeline-content{ padding-left: 65px;}
 
     .mid-box{margin-left: 0 !important;}
 }
@@ -538,6 +553,7 @@ ol.type li a:hover {
 #contact {   background-color: #394E6C; padding: 10px;  color: white;   }
 #contact #contact-information div { padding: 0;}
 #contact #contact-form input[type="text"], #contact #contact-form input[type="email"] { height: 18px;}
+#contact #contact-form{ width: 50%;  margin: 0 auto;}
 #contact h2 {    text-align: center;    font-size: 3em;    padding-top: 10px;    font-weight: 500;  color: white; }
 #contact-form-submit{   width: 100%; display: inline-block;    }
 #contact-form-submit-button {    display: block;    background:#394E6C; color:white; border: 1px solid white;    margin: 0 auto;    font-size: 14px;    padding: 8px 25px;   transition: all 0.3s linear 0s;    -webkit-transition: all 0.3s linear 0s;    -moz-transition: all 0.3s linear 0s;    -o-transition: all 0.3s linear 0s;    cursor: pointer;  }

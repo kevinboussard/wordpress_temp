@@ -35,33 +35,37 @@
                             <div class="timeline-panel">
                                 <div class="row">
                                     <?php if($class_name == ""){ ?>
-                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                                            <div class="timeline-heading">
-                                                <h3><?php echo $company_name ?></h3>
-                                                <h4 class="subheading"><?php echo $job_title ?></h4>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <p><?php echo $task_description ?></p>
+                                        <div class="col-lg-5 col-md-4 col-sm-4 col-xs-11">
+                                            <div class="timeline-content">
+                                                <div class="timeline-heading">
+                                                    <h3><?php echo $company_name ?></h3>
+                                                    <h4 class="subheading"><?php echo $job_title ?></h4>
+                                                </div>
+                                                <div class="timeline-body">
+                                                    <p><?php echo $task_description ?></p>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                        <div class="col-lg-offset-1 col-lg-2 col-md-offset-2 col-md-3 col-sm-offset-2 col-sm-4 col-xs-12">
                                             <div class="timeline-company-logo">
                                                 <img src="<?php echo $company_logo ?>" width="100px" height="100px">
                                             </div>
                                         </div>
                                     <?php }else{ ?>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                                        <div class="col-lg-5 col-md-4 col-sm-4 col-xs-12">
                                             <div class="timeline-company-logo">
                                                 <img src="<?php echo $company_logo ?>" width="100px" height="100px">
                                             </div>
                                         </div>
-                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-                                            <div class="timeline-heading">
-                                                <h3><?php echo $company_name ?></h3>
-                                                <h4 class="subheading"><?php echo $job_title ?></h4>
-                                            </div>
-                                            <div class="timeline-body">
-                                                <p><?php echo $task_description ?></p>
+                                        <div class="col-lg-offset-1 col-lg-2 col-md-offset-2 col-md-3 col-sm-offset-2 col-sm-4 col-xs-11">
+                                            <div class="timeline-content">
+                                                <div class="timeline-heading">
+                                                    <h3><?php echo $company_name ?></h3>
+                                                    <h4 class="subheading"><?php echo $job_title ?></h4>
+                                                </div>
+                                                <div class="timeline-body">
+                                                    <p><?php echo $task_description ?></p>
+                                                </div>
                                             </div>
                                         </div>
                                     <?php } ?>

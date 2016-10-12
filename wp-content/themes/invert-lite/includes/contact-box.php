@@ -8,15 +8,8 @@
                     <hr>
                 </div>
                 <div id="contact-information">
-                        <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
-                            <p>Adresse inconnue,<br>
-                                35510 Cesson-Sévigné</p>
-                        </div>
-                        <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
+                        <div class="col-xs-12"> <i class="fa fa-envelope-o fa-2x"></i>
                             <p>boussardkevin53@gmail.com</p>
-                        </div>
-                        <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
-                            <p>06 44 ?? ?? ??</p>
                         </div>
                     <div class="clearfix"></div>
                 </div>

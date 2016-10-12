@@ -18,7 +18,7 @@
 					<h3><?php echo $term->name ?></h3>
 				</div>
 
-				<div class="col-lg-9 col-md-9 col-sm-10 col-xs-12">
+				<div class="mid-box col-lg-9 col-md-9 col-sm-11 col-xs-12">
 
 				<?php
 
@@ -37,7 +37,7 @@
 					?>
 
 
-					<div class="mid-box col-lg-2 col-md-3 col-sm-3 col-xs-12">
+					<div class="mid-box col-lg-2 col-md-2 col-sm-2 col-xs-12">
 						<div class="skt-iconbox iconbox-top">
 							<div class="iconbox-content">
 								<section class="skill-container">
@@ -46,10 +46,10 @@
 											<img class="skill" src= "<?php echo $skill_picture['sizes']['thumbnail'];?>" width="70px" height="70px">
 											<figcaption></figcaption> 
 										<?php }else{ ?>
-											<figcaption><?php echo $post->post_title ?></figcaption>
+											<figcaption><p><?php echo $post->post_title ?></p></figcaption>
 										<?php } ?>
-										<svg width="160" height="160">
-											<circle style="stroke: <?php echo $skill_color ?>" class="outer" cx="110" cy="80" r="77.5" transform="rotate(-90, 95, 95)"/>
+										<svg width="117" height="117">
+											<circle style="stroke: <?php echo $skill_color ?>" class="outer" cx="131.5" cy="58.5" r="56" transform="rotate(-90, 95, 95)"/>
 										</svg>
 									</figure>
 								</section>
