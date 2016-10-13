@@ -56,7 +56,7 @@
     fill: transparent;
     stroke: #333;
     stroke-width: 5;
-    stroke-dasharray: 534;
+    stroke-dasharray: 352;
     transition: stroke-dashoffset 1s;
     -webkit-animation-play-state: running;
 
@@ -75,121 +75,121 @@
 }
 
 .chart-animation[data-percent='95'] .outer {
-    stroke-dashoffset: 36;
+    stroke-dashoffset: 18;
     -webkit-animation: show95 2s;
     animation: show95 2s;
 }
 
 .chart-animation[data-percent='90'] .outer {
-    stroke-dashoffset: 71;
+    stroke-dashoffset: 35;
     -webkit-animation: show90 2s;
     animation: show90 2s;
 }
 
 .chart-animation[data-percent='85'] .outer {
-    stroke-dashoffset: 107;
+    stroke-dashoffset: 53;
     -webkit-animation: show85 2s;
     animation: show85 2s;
 }
 
 .chart-animation[data-percent='80'] .outer {
-    stroke-dashoffset: 143;
+    stroke-dashoffset: 70;
     -webkit-animation: show80 2s;
     animation: show80 2s;
 }
 
 .chart-animation[data-percent='75'] .outer {
-    stroke-dashoffset: 179;
+    stroke-dashoffset: 88  ;
     -webkit-animation: show75 2s;
     animation: show75 2s;
 }
 
 .chart-animation[data-percent='70'] .outer {
-    stroke-dashoffset: 214;
+    stroke-dashoffset: 106;
     -webkit-animation: show70 2s;
     animation: show70 2s;
 }
 
 .chart-animation[data-percent='65'] .outer {
-    stroke-dashoffset: 250;
+    stroke-dashoffset: 123;
     -webkit-animation: show65 2s;
     animation: show65 2s;
 }
 
 .chart-animation[data-percent='60'] .outer {
-    stroke-dashoffset: 286;
+    stroke-dashoffset: 141;
     -webkit-animation: show60 2s;
     animation: show60 2s;
 }
 
 .chart-animation[data-percent='55'] .outer {
-    stroke-dashoffset: 321;
+    stroke-dashoffset: 158;
     -webkit-animation: show55 2s;
     animation: show55 2s;
 }
 
 .chart-animation[data-percent='50'] .outer {
-    stroke-dashoffset: 357;
+    stroke-dashoffset: 176;
     -webkit-animation: show50 2s;
     animation: show50 2s;
 }
 
 .chart-animation[data-percent='45'] .outer {
-    stroke-dashoffset: 323;
+    stroke-dashoffset: 194;
     -webkit-animation: show45 2s;
     animation: show45 2s;
 }
 
 .chart-animation[data-percent='40'] .outer {
-    stroke-dashoffset: 350;
+    stroke-dashoffset: 211;
     -webkit-animation: show40 2s;
     animation: show40 2s;
 }
 
 .chart-animation[data-percent='35'] .outer {
-    stroke-dashoffset: 376;
+    stroke-dashoffset: 229;
     -webkit-animation: show35 2s;
     animation: show35 2s;
 }
 
 .chart-animation[data-percent='30'] .outer {
-    stroke-dashoffset: 401;
+    stroke-dashoffset: 246;
     -webkit-animation: show30 2s;
     animation: show30 2s;
 }
 
 .chart-animation[data-percent='25'] .outer {
-    stroke-dashoffset: 430;
+    stroke-dashoffset: 264;
     -webkit-animation: show25 2s;
     animation: show25 2s;
 }
 
 .chart-animation[data-percent='20'] .outer {
-    stroke-dashoffset: 457;
+    stroke-dashoffset: 282;
     -webkit-animation: show20 2s;
     animation: show20 2s;
 }
 
 .chart-animation[data-percent='15'] .outer {
-    stroke-dashoffset: 484;
+    stroke-dashoffset: 300;
     -webkit-animation: show15 2s;
     animation: show15 2s;
 }
 
 .chart-animation[data-percent='10'] .outer {
-    stroke-dashoffset: 511;
+    stroke-dashoffset: 317;
     -webkit-animation: show10 2s;
     animation: show10 2s;
 }
 
 .chart-animation[data-percent='5'] .outer {
-    stroke-dashoffset: 537;
+    stroke-dashoffset: 334;
     -webkit-animation: show5 2s;
     animation: show5 2s;
 }
 
 .chart-animation[data-percent='0'] .outer {
-    stroke-dashoffset: 537;
+    stroke-dashoffset: 352;
     -webkit-animation: show0 2s;
     animation: show0 2s;
 }
@@ -198,7 +198,7 @@
 /* Keyframes for the initial animation */
 @-webkit-keyframes show100 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
@@ -208,7 +208,7 @@
 
 @keyframes show100 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
@@ -218,401 +218,401 @@
 
 @-webkit-keyframes show95 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 36;
+        stroke-dashoffset: 18;
     }
 }
 
 @keyframes show95 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 36;
+        stroke-dashoffset: 18;
     }
 }
 
 @-webkit-keyframes show90 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 71;
+        stroke-dashoffset: 35;
     }
 }
 
 @keyframes show90 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 71;
+        stroke-dashoffset: 35;
     }
 }
 
 @-webkit-keyframes show85 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 107;
+        stroke-dashoffset: 53;
     }
 }
 
 @keyframes show85 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 107;
+        stroke-dashoffset: 53;
     }
 }
 
 @-webkit-keyframes show80 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 143;
+        stroke-dashoffset: 70;
     }
 }
 
 @keyframes show80 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 143;
+        stroke-dashoffset: 70;
     }
 }
 
 @-webkit-keyframes show75 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 179;
+        stroke-dashoffset: 88;
     }
 }
 
 @keyframes show75 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 179;
+        stroke-dashoffset: 88;
     }
 }
 
 @-webkit-keyframes show70 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 214;
+        stroke-dashoffset: 106;
     }
 }
 
 @keyframes show70 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 214;
+        stroke-dashoffset: 106;
     }
 }
 
 @-webkit-keyframes show65 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 250;
+        stroke-dashoffset: 123;
     }
 }
 
 @keyframes show65 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 250;
+        stroke-dashoffset: 123;
     }
 }
 
 @-webkit-keyframes show60 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 286;
+        stroke-dashoffset: 141;
     }
 }
 
 @keyframes show60 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 286;
+        stroke-dashoffset: 141;
     }
 }
 
 @-webkit-keyframes show55 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 321;
+        stroke-dashoffset: 158;
     }
 }
 
 @keyframes show55 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 321;
+        stroke-dashoffset: 158;
     }
 }
 
 @-webkit-keyframes show50 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 357;
+        stroke-dashoffset: 176;
     }
 }
 
 @keyframes show50 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 357;
+        stroke-dashoffset: 176;
     }
 }
 
 @-webkit-keyframes show45 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 323;
+        stroke-dashoffset: 194;
     }
 }
 
 @keyframes show45 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 323;
+        stroke-dashoffset: 194;
     }
 }
 
 @-webkit-keyframes show40 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 350;
+        stroke-dashoffset: 211;
     }
 }
 
 @keyframes show40 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 350;
+        stroke-dashoffset: 211;
     }
 }
 
 @-webkit-keyframes show35 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 376;
+        stroke-dashoffset: 229;
     }
 }
 
 @keyframes show35 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 376;
+        stroke-dashoffset: 229;
     }
 }
 
 @-webkit-keyframes show30 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 401;
+        stroke-dashoffset: 246;
     }
 }
 
 @keyframes show30 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 401;
+        stroke-dashoffset: 246;
     }
 }
 
 @-webkit-keyframes show25 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 430;
+        stroke-dashoffset: 264;
     }
 }
 
 @keyframes show25 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 430;
+        stroke-dashoffset: 264;
     }
 }
 
 @-webkit-keyframes show20 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 484;
+        stroke-dashoffset: 282;
     }
 }
 
 @keyframes show20 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 484;
+        stroke-dashoffset: 282;
     }
 }
 
 @-webkit-keyframes show15 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 511;
+        stroke-dashoffset: 300;
     }
 }
 
 @keyframes show15 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 511;
+        stroke-dashoffset: 300;
     }
 }
 
 @-webkit-keyframes show10 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 511;
+        stroke-dashoffset: 317;
     }
 }
 
 @keyframes show10 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 511;
+        stroke-dashoffset: 317;
     }
 }
 
 @-webkit-keyframes show5 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 537; // 537
+        stroke-dashoffset: 334;
     }
 }
 
 @keyframes show5 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 334;
     }
 }
 
 @-webkit-keyframes show0 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 }
 
 @keyframes show0 {
     from {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 
     to {
-        stroke-dashoffset: 537;
+        stroke-dashoffset: 352;
     }
 }
 /* END Keyframes for the initial animation */
