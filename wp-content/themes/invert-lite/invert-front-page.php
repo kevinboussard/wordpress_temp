@@ -3,6 +3,7 @@
 <!-- ABOUT ME CONTENT -->
 <?php if( get_theme_mod('home_feature_sec', 'on') == 'on' ) { ?>
 	<?php include("includes/about-me-box.php"); ?>
+	<?php include("includes/slide-1.php"); ?>
 <?php } ?>
 
 <!-- RESUME CONTENT -->
@@ -15,6 +16,7 @@
 		<!-- CV SECTION -->
 		<?php include("includes/cv-box.php"); ?>
 	</div>
+	<?php include("includes/slide-2.php"); ?>
 <?php } ?>
 
 <!-- SKILL CONTENT -->

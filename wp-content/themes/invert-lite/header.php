@@ -25,7 +25,7 @@
 <div id="wrapper" class="skepage">
 	
 	<!-- header image section -->
-	<!-- <div class="flexslider">
+	<div class="flexslider">
 		<div class="post">
 			<?php if( get_header_image() ) { ?>
 				<img alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="default-slider-image"  src="<?php header_image(); ?>" />
@@ -33,26 +33,7 @@
 				<img alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="default-slider-image"  src="<?php echo esc_url(get_template_directory_uri().'/images/invert.jpg'); ?>" />
 			<?php } ?>
 		</div>
-	</div> -->
-	<!-- HTML -->
-	<section id="slide-1" class="homeSlide">
-		<div class="bcg"
-			 data-center="background-position: 50% 0px;"
-			 data-top-bottom="background-position: 50% -100px;"
-			 data-anchor-target="#slide-1"
-		>
-			<div class="hsContainer">
-				<div class="hsContent"
-					 data-center="opacity: 1"
-					 data-106-top="opacity: 0"
-					 data-anchor-target="#slide-1 h2"
-				>
-					<h2>Portfolio d'Agathe Huvé</h2>
-				</div>
-			</div>
-		</div>
-	</section>
-
+	</div>
 	<div id="header" class="skehead-headernav clearfix">
 		<div class="glow">
 			<div id="skehead">
