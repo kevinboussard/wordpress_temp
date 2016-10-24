@@ -46,6 +46,13 @@
 <a href="JavaScript:void(0);" title="Back To Top" id="backtop"></a>
 <?php wp_footer(); ?>
 <script>
+	// Init Skrollr
+	var s = skrollr.init();
+
+	// Refresh Skrollr after resizing our sections
+	s.refresh($('.homeSlide'));
+</script>
+<script>
 	$(document).ready(function() {
 		$('.js-scrollTo').on('click', function() { // Au clic sur un élément
 			var page = $(this).attr('href'); // Page cible

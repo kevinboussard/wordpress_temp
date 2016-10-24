@@ -17,9 +17,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Cabin+Condensed" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
@@ -27,7 +25,7 @@
 <div id="wrapper" class="skepage">
 	
 	<!-- header image section -->
-	<div class="flexslider">
+	<!-- <div class="flexslider">
 		<div class="post">
 			<?php if( get_header_image() ) { ?>
 				<img alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="default-slider-image"  src="<?php header_image(); ?>" />
@@ -35,7 +33,25 @@
 				<img alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" class="default-slider-image"  src="<?php echo esc_url(get_template_directory_uri().'/images/invert.jpg'); ?>" />
 			<?php } ?>
 		</div>
-	</div>
+	</div> -->
+	<!-- HTML -->
+	<section id="slide-1" class="homeSlide">
+		<div class="bcg"
+			 data-center="background-position: 50% 0px;"
+			 data-top-bottom="background-position: 50% -100px;"
+			 data-anchor-target="#slide-1"
+		>
+			<div class="hsContainer">
+				<div class="hsContent"
+					 data-center="opacity: 1"
+					 data-106-top="opacity: 0"
+					 data-anchor-target="#slide-1 h2"
+				>
+					<h2>Portfolio d'Agathe Huvé</h2>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<div id="header" class="skehead-headernav clearfix">
 		<div class="glow">
@@ -89,5 +105,6 @@
 		<!-- .glow -->
 	</div>
 	<!-- #header -->
+
 
 <div id="main" class="clearfix">

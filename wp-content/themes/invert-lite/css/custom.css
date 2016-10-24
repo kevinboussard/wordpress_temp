@@ -1,5 +1,5 @@
 /* GENERALS */
-#about-me-content h2, #portfolio h2, #experience h2, #education h2, #contact h2, #skill-title{ font-size: 45px; font-family: 'Josefin Sans', sans-serif;}
+#about-me-content h2, #portfolio h2, #experience h2, #education h2, #contact h2, #skill-title{ font-size: 45px; font-family: 'Rubik', sans-serif;}
 
 ul li a:hover, #cv-content a:hover {text-decoration: none;}
 
@@ -31,15 +31,15 @@ body.front-page #main{margin-top:0 !important;}
 
 /* Experience Section */
 .timeline .timeline-heading h4 {
-    font-family: 'Cabin Condensed', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .timeline .timeline-heading h3 {
-    font-family: 'Lobster Two', cursive;
+    font-family: 'Rubik', sans-serif;
 }
 
 .timeline .timeline-body p {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color: black;
 }
 
@@ -431,15 +431,11 @@ ol.type li a:hover {
         max-width: 75%;
     }
     .intro .intro-text p {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Rubik', sans-serif;
         font-size: 20px;
         margin-bottom: 40px;
         margin-top: 20px;
     }
-    /*
-    section {
-        padding: 30px 0;
-    }*/
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
