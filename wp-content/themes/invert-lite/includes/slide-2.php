@@ -1,12 +1,5 @@
-<section id="slide-2">
-    <div class="bcg"
-         data-0="background-color:rgb(1,27,59);"
-         data-top="background-color:(0,0,0);"
-         data-anchor-target="#slide-2"
-    >
-        <div class="hsContainer">
-            <div class="hsContent">
-            </div>
-        </div>
+<div id="slide-2" class="parallax">
+    <div class="caption">
+        <span>" La publicité, c'est vendre des courants d'air, mais ce sont ces courants qui font tourner le moulin. " <br> Marcel Bleustein-Blanchet</span>
     </div>
-</section>
+</div>

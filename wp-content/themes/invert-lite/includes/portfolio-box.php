@@ -34,25 +34,28 @@
 
                     ?>
 
-                    <div class="span6 <?php foreach ($project_categories as $project_category){ echo $project_category->name . " ";	}?>">
-                        <div class="portfolio-item">
-                            <div class="hover-bg"> <a href="<?php if($project_picture['sizes']['large'] != null) echo $project_picture['sizes']['large'] ?>" title="<?php echo $post->post_content ?>" rel="prettyPhoto">
-                                    <div class="hover-text">
-                                        <h4><?php echo $post->post_title ?></h4>
-                                        <small>
-                                            <?php foreach ($project_categories as $project_category){
-                                                echo $project_category->name . " ";
-                                            }
-                                            ?>
-                                        </small>
-                                    </div>
-                                    <img src="<?php if($project_picture['sizes']['large'] != null) echo $project_picture['sizes']['large'] ?>" class="img-responsive" alt="<?php echo $post->post_title ?>"> </a>
-                            </div>
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 portfolio-item <?php foreach ($project_categories as $project_category){ echo $project_category->name . " ";	}?>">
+                        <div class="card">
+                            <div class="card-image">
+                                <a class="portfolio-item-link" href="<?php if($project_picture['sizes']['large'] != null) echo $project_picture['sizes']['large'] ?>"><img class="img-responsive" src="<?php if($project_picture['sizes']['large'] != null) echo $project_picture['sizes']['large'] ?>"></a>
+
+                            </div><!-- card image -->
+
+                            <div class="card-content">
+                                <span class="card-title"><?php echo $post->post_title ?></span>
+                                <button type="button" class="btn btn-custom pull-right show-btn" data-rel="<?php echo $post->ID ?>" aria-label="Left Align">
+                                    <i class="fa fa-ellipsis-v"></i>
+                                </button>
+                            </div><!-- card content -->
+                            <div class="card-reveal"  data-rel="<?php echo $post->ID ?>">
+                                <span class="card-title"><?php echo $post->post_title ?></span> <button type="button" class="close" data-rel="<?php echo $post->ID ?>" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">fermer</span></button>
+                                <p><?php echo $post->post_content ?></p>
+                            </div><!-- card reveal -->
                         </div>
                     </div>
 
                 <?php endwhile;	?>
-
+                <div class="clearfix"></div>
             </div>
         </div>
     </div>

@@ -57,7 +57,7 @@
                                                 <img src="<?php echo $company_logo ?>" width="100px" height="100px">
                                             </div>
                                         </div>
-                                        <div class="col-lg-offset-1 col-lg-2 col-md-offset-2 col-md-3 col-sm-offset-2 col-sm-4 col-xs-11">
+                                        <div class="col-lg-offset-1 col-lg-4 col-md-offset-2 col-md-4 col-sm-offset-2 col-sm-4 col-xs-11">
                                             <div class="timeline-content">
                                                 <div class="timeline-heading">
                                                     <h3><?php echo $company_name ?></h3>

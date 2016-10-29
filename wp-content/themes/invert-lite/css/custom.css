@@ -43,6 +43,45 @@ body.front-page #main{margin-top:0 !important;}
     color: black;
 }
 
+/* Slide Parallax */
+
+.parallax{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slide-1{
+    background-image: url("../images/img_parallax.jpg");
+    min-height: 400px;
+}
+
+#slide-1 .caption, #slide-2 .caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    background-color: rgba(64, 64, 64, 0.5);
+}
+
+#slide-1 .caption span, #slide-2 .caption span {
+    background-color: transparent;
+    font-size: 25px;
+    color: #f7f7f7;
+}
+
+#slide-2{
+    background-image: url("../images/img_parallax3.jpg");
+    min-height: 400px;
+}
+
+
+
 /* CV Section */
 #cv-content a{
     padding: 10px 0px;
@@ -56,7 +95,7 @@ body.front-page #main{margin-top:0 !important;}
 
 /* Portfolio Section */
 #portfolio {
-    padding-top: 50px;
+    padding-top: 25px;
     background-color: whitesmoke; /* Old browsers */
     background: -moz-linear-gradient(top, whitesmoke 0%, #f4f5f6 49%, whitesmoke 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, whitesmoke), color-stop(49%, #f4f5f6), color-stop(100%, whitesmoke)); /* Chrome,Safari4+ */
@@ -68,7 +107,6 @@ body.front-page #main{margin-top:0 !important;}
 }
 #portfolio .container{  width: 90%;    }
 .categories {
-    padding-bottom: 30px;
     text-align: center;
 }
 ul.cat li {
@@ -79,6 +117,7 @@ ol.type li {
     margin-left: 20px;
 }
 ol.type li a {
+    text-decoration: none;
     background: #97A5C1;
     color: #fff;
     padding: 6px 14px;
@@ -193,14 +232,14 @@ ol.type li a:hover {
 
 #experience {
     background-color: #97A5C1;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 #experience .container, #education .container { width: 90%; }
 
 #education {
     background-color: #E2E3E7;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .timeline {
@@ -315,9 +354,6 @@ ol.type li a:hover {
     color: #97A5C1 !important;
     margin-bottom: 0;
 }
-
-
-
 /* Media Queries */
 
 @media only screen and (min-width : 320px) and (max-width : 767px) {
@@ -377,9 +413,9 @@ ol.type li a:hover {
     #experience .timeline-company-logo{display: none;}
     #experience .timeline-content, #education .timeline-inverted .timeline-content{ padding-left: 0;}
 
-    #competence .mid-box h3{
+    /*#competence .mid-box h3{
         line-height: 0 !important;
-    }
+    }*/
 
     .categories{
         padding: 0 !important;
@@ -404,7 +440,7 @@ ol.type li a:hover {
         padding: 0 !important;
     }
 
-    .mid-box{padding: 0 !important;}
+    /*.mid-box{padding: 0 !important;}*/
 
     #contact-form {
         width: 85% !important;
@@ -478,7 +514,7 @@ ol.type li a:hover {
     #experience .timeline-company-logo, #experience .timeline-content{padding-left: 35px;}
     #education .timeline-inverted .timeline-content{ padding-left: 65px;}
 
-    .mid-box h3{line-height : 0px !important;}
+    .mid-box h3{padding: 10px; margin-bottom: 0 !important; background-color: lightslategray; color: white;}
 }
 
 @media(min-width:992px) {
@@ -509,8 +545,8 @@ ol.type li a:hover {
         padding-left: 65px;
     }
 
-    .mid-box{margin-left: 0 !important;}
-    .mid-box h3{line-height : 167px !important; padding-left: 0!important;}
+    /*.mid-box{margin-left: 0 !important;}*/
+    /*.mid-box h3{line-height : 167px !important; padding-left: 0!important;}*/
 }
 
 @media(min-width:1200px) {
@@ -534,10 +570,10 @@ ol.type li a:hover {
         font-size: 0.8em;
     }
 
-    #experience .timeline-company-logo, #experience .timeline-content{padding-left: 65px;}
-    #education .timeline-inverted .timeline-content{ padding-left: 90px;}
+    #experience .timeline-company-logo, #experience .timeline-content{padding-left: 14px;}
+    #education .timeline-inverted .timeline-content{ padding-left: 43px;}
 
-    .mid-box{margin-left: 0 !important;}
+    /*.mid-box{margin-left: 0 !important;}*/
 }
 
 /* CONTACT SECTION */
