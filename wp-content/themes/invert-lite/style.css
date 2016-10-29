@@ -156,7 +156,7 @@ body.page .edit-link {  clear: both;  display: block;  }
 .home.page #front-page-content{display: block;}
 #featured-box{margin-bottom: 60px;}
 .mid-box:hover .iconbox-icon i{  color: #1ac8d2;  }
-.skt-section{  padding: 60px 0 0px;  }
+.skt-section{  padding: 25px 0 0px;  }
 #front-content-box .span4:nth-child(3n+1) { margin-left: 0;}
 #front-content-box .span4{padding-bottom:25px; min-height: 320px;}
 .skt-iconbox.iconbox-top {      text-align: center;  }

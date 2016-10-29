@@ -1,5 +1,10 @@
 #competence .container{
-    width: 90%;
+    width: 100%;
+    padding: 0;
+}
+
+#competence .mid-box{
+    padding: 0;
 }
 
 #competence .mid-box h4{
@@ -37,6 +42,32 @@
     max-width: 100px;
     max-height: 100px;
     background: white;
+}
+figure .skillPercentage{
+    visibility: hidden;
+    padding: 56px 33px;
+    width: 56px;
+    height: 7px;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+figure .skillPercentage span{
+    position: absolute;
+    top: 48px;
+    left: 43px;
+    color: white;
+}
+
+figure .skillPercentageMax span{
+    position: absolute;
+    top: 48px;
+    left: 37px;
+    color: white;
 }
 /* END Container styles */
 

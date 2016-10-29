@@ -9,7 +9,7 @@
                 </div>
                 <div id="contact-information">
                         <div class="col-xs-12"> <i class="fa fa-envelope-o fa-2x"></i>
-                            <p>boussardkevin53@gmail.com</p>
+                            <p>agatheh95@hotmail.fr</p>
                         </div>
                     <div class="clearfix"></div>
                 </div>

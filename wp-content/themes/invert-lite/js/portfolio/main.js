@@ -74,10 +74,22 @@ function main() {
 		}
 	});
 
-  	// Pretty Photo
+  	/* Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
-	});
+	});*/
+
+    $(document).ready(function( $ ) {
+
+        $('.show-btn').on('click', function () {
+            $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
+        });
+
+        $('.card-reveal .close').on('click', function() {
+            $('div.card-reveal[data-rel=' + $(this).data('rel') + ']').slideToggle('slow');
+        });
+
+    });
 
 }());
 

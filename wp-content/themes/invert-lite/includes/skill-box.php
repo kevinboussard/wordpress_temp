@@ -5,7 +5,6 @@
 
 	  <div class="section-title text-center center">
 		  <h2 id="skill-title">Compétences</h2>
-		  <hr>
 	  </div>
 
 	  	<?php
@@ -14,11 +13,11 @@
 
 			<div class="mid-box-mid row-fluid">
 
-				<div class="mid-box col-lg-2 col-md-2 col-sm-12 col-xs-12">
+				<div class="mid-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
 					<h3><?php echo $term->name ?></h3>
 				</div>
 
-				<div class="mid-box col-lg-9 col-md-9 col-sm-11 col-xs-12">
+				<div class="mid-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 				<?php
 
@@ -51,6 +50,7 @@
 										<svg width="117" height="117">
 											<circle style="stroke: <?php echo $skill_color ?>" class="outer" cx="131.5" cy="58.5" r="56" transform="rotate(-90, 95, 95)"/>
 										</svg>
+										<div class="skillPercentage<?php if($skill_knowledge_percentage == 100) { ?> skillPercentageMax<?php } ?>" style="background-color: <?php echo $skill_color ?>"><span><?php echo $skill_knowledge_percentage ?> %</span></div>
 									</figure>
 								</section>
 							</div>
@@ -58,7 +58,7 @@
 						</div>
 					</div>
 
-				<?php }	endwhile;  ?>
+				<?php } endwhile;  ?>
 
 				</div>
 
