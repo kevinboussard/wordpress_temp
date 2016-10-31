@@ -21,7 +21,7 @@
                 <hr>
             </div>
         </div>
-        <div class="border-content-box bottom-space">
+        <div id="about-me-description" class="border-content-box bottom-space">
             <span><?php echo $postslist[0]->post_content ?></span>
         </div>
     </div>

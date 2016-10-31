@@ -36,7 +36,7 @@
 					?>
 
 
-					<div class="mid-box col-lg-2 col-md-2 col-sm-2 col-xs-12">
+					<div class="mid-box col-lg-2 col-md-2 col-sm-3 col-xs-12">
 						<div class="skt-iconbox iconbox-top">
 							<div class="iconbox-content">
 								<section class="skill-container">
